@@ -33,7 +33,6 @@ def word_frequency(sentence):
         frequency[word] = frequency.get(word, 0) + 1
     return frequency
 
-# Example usage:
 sentence = "Hello world! Hello everyone. Welcome to the world of Python."
 frequencies = word_frequency(sentence)
 print("Word frequencies:", frequencies)
